@@ -1,0 +1,65 @@
+#startbtn{
+	z-index: 100;
+	font-size: 50px;
+	background-color:yellow;
+	width: 100px;
+	height:40px;
+}
+
+.selected{
+	color: red;
+}
+
+#spinner{
+	display: none;
+	position: fixed;
+	top: 0;
+	opacity: 0.5;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	height: 50%;
+	width: 50%;
+
+}
+#tags{
+	width: 90%
+	background-color: #D5D8F8;
+	z-index: 100;
+}
+.tagbtn{
+	padding: 5px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	border: 2px solid #CEFC00;
+	background-color: #0F80FF;
+	color: white;
+	font-family: "Helvetica Neue";
+	font-size: 14px;
+	line-height: 30px;
+	z-index: 100;
+
+	
+
+}
+
+#photodiv{
+	display:flex;
+	width:100%;
+	 flex-flow: row wrap;
+}
+
+.photo{
+	
+	z-index: 100;
+	padding: 5px;
+
+ 
+	width: 300px;
+
+	
+ 
+
+}
+
