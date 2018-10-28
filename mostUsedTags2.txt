@@ -1,5 +1,3 @@
-secondlife
-firestorm
 nature
 landscape
 2018
@@ -31,8 +29,6 @@ macro
 summer
 twitter
 squareformat
-instagramapp
-uploaded:by=instagram
 trees
 blue
 flower
@@ -133,7 +129,6 @@ car
 cracked
 for
 home
-secondlife:z=21
 asia
 man
 new
@@ -183,7 +178,6 @@ old
 plant
 switzerland
 yoga
-500px
 abandoned
 android
 berlin
