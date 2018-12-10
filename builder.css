@@ -1,0 +1,13 @@
+#imageArea{
+	display:flex;
+	width: 900px;
+	
+}
+.imgdemo{
+	display:flex;
+	/* 
+width: 60px;
+	height:70px;
+	border: 1px solid gray;
+ */
+}
