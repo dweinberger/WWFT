@@ -53,7 +53,7 @@ function loadJson(){
 function processJsonFiles(topTags){
 	
 	// tell it how many json file
-	numberOfJsonFiles = 33; // (actual number, including 0)
+	numberOfJsonFiles = 11; // (actual number, including 0)
 	// create array of tag counts. index corresponds to topTags of tags
 	var tagCtrArray = new Array();
 	// initializes the tag counter array
@@ -63,7 +63,7 @@ function processJsonFiles(topTags){
 	
 	// —  Read each json file
 	for (var i =0; i < numberOfJsonFiles; i++){
-		var jsonFileName = "working_set/json/" + i + ".json"
+		var jsonFileName = "imagesDecember3_reduced_50x50/json/" + i + ".json"
 		
 		$.get(jsonFileName, function(rawjson) {
 			$("#status").text($("#status").text() + " " +  gCtr);
@@ -154,7 +154,7 @@ function showImages(btn){
 		if (tag == gAllTagsPhotoInfo[i]["tag"]){
 			var div = document.createElement("div");
 			$(div).attr({"class" : "photo"});
-			var html = "<p><img src='working_set/" + gAllTagsPhotoInfo[i]["photo"] + 
+			var html = "<p><img src='imagesDecember3_reduced_50x50/" + gAllTagsPhotoInfo[i]["photo"] + 
 				"'></p><p>Tag: " + tag + "<br>" + gAllTagsPhotoInfo[i]["tagstring"] + 
 				"<br>Filename:"  + 
 				gAllTagsPhotoInfo[i]["photo"] + 
